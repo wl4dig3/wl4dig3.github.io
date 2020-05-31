@@ -1,0 +1,59 @@
+.article__info_text-playfair {
+    padding: 30px 20px;
+}
+.article__info_text-roboto {
+    padding: 10px 20px;
+}
+    
+
+
+.article__biography .article__biography_titulos {
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.article__biography .arrow{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.article__biography div {
+    align-self: auto;
+}
+
+
+.article__biography img{
+    border-radius: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+// MediaQuery
+@media (min-width:480px) {
+    
+    .article__biography {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+    
+    }
+       
+    // .article__biography {
+    //     display: flex;
+    //     flex-direction: column;
+    // }
+    
+    }
+
+    @media (max-width:480px) {
+        .article__biography p {
+            display: none;
+        }
+    }

@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+h1 {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  text-align: center;
+  font-style: italic; }
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-style: italic; }
+
+.article__biography h3 {
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  color: #d76c69;
+  font-weight: 300; }
+
+.article__info_text-playfair {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400; }
+
+.article__info_text-roboto {
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px 20px; }
+
+.article__biography p {
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  line-height: 2.5; }
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 70px; }
+
+  .article__info_text-playfair {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px 0; }
+
+  .article__info_text-roboto {
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.5;
+    padding: 10px 0px; } }
+.navbar-brand {
+  padding: 0 0 0 50px; }
+
+.navbar-brand img {
+  width: 50px; }
+
+.navbar {
+  background-color: #121619; }
+
+.collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap; }
+
+.navbar-nav {
+  align-self: flex-end;
+  padding-right: 50px; }
+
+.hero-section {
+  background-image: url(../img/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 800px; }
+
+.hero-section div {
+  height: 50px;
+  width: 50px; }
+
+.hero-section .arrow i {
+  color: #fff; }
+
+.article__info_text-playfair {
+  padding: 30px 20px; }
+
+.article__info_text-roboto {
+  padding: 10px 20px; }
+
+.article__biography .article__biography_titulos {
+  text-align: center;
+  vertical-align: middle; }
+
+.article__biography .arrow {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center; }
+
+.article__biography div {
+  align-self: auto; }
+
+.article__biography img {
+  border-radius: 150px;
+  display: block;
+  margin: 0 auto; }
+
+@media (min-width: 480px) {
+  .article__biography {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center; } }
+@media (max-width: 480px) {
+  .article__biography p {
+    display: none; } }
+.footer {
+  height: 250px;
+  background-color: #121619;
+  display: flex;
+  justify-content: center; }
+
+.footer .footer_logo {
+  width: 120px;
+  align-self: center; }
+
+.article__info .btn {
+  border-radius: 50px;
+  background-color: #6c6e70;
+  text-align: center;
+  margin: 30px 10px;
+  font-size: 16px;
+  font-family: "Roboto", serif;
+  height: 40px;
+  align-self: center; }
+
+.article__info .centrado-boton {
+  display: flex;
+  justify-content: center; }
+
+@media (min-width: 480px) {
+  .article__info .centrado-boton {
+    display: inline-flex; } }
+.paginacion {
+  height: 150px;
+  background-color: #e6e7e7;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center; }
+
+.pagination .page-item:first-child a {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px; }
+
+.pagination .page-item:last-child a {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px; }
+
+/*# sourceMappingURL=style.css.map */

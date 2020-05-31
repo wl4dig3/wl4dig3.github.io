@@ -1,0 +1,57 @@
+h1 {
+    font-size: $x-large;
+    color: $white;
+    font-family: $playfair;
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+}
+h2 {
+    font-family: $playfair;
+    font-size: $x-large;
+    font-style: italic;
+}
+.article__biography h3 {
+    font-family: $roboto;
+    font-size: $medium;
+    color: $rudy-pink;
+    font-weight: $light;
+}
+.article__info_text-playfair {
+    font-family: $playfair;
+    font-size: $medium;
+    font-weight: $regular;
+    
+}
+.article__info_text-roboto {
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $light;
+    padding: 10px 20px;
+}
+.article__biography p {
+    font-family: $roboto;
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+
+// Mediaqueri
+@media (min-width:480px) {
+    h1 {
+        font-size: $xx-large;
+    }
+    .article__info_text-playfair {
+        font-family: $playfair;
+        font-size: $large;
+        font-weight: $regular;
+        padding: 30px 0;
+    }
+    .article__info_text-roboto {
+        font-family: $roboto;
+        font-size: $medium;
+        font-weight: $light;
+        line-height: 2.5;
+        padding: 10px 0px;
+    }
+}

@@ -1,0 +1,30 @@
+.article__info .btn  {
+    border-radius: 50px;
+    background-color: $nickel;
+    text-align: center;
+    margin: 30px 10px;
+    // padding: 5px 10px;
+    font-size: $medium;
+    font-family: $roboto;
+    height: 40px;
+    align-self: center;
+}
+.article__info .centrado-boton {
+    display: flex;
+    justify-content: center;
+}
+
+
+// MediaQuery
+@media (min-width:480px) {
+    
+    .article__info .centrado-boton {
+      display: inline-flex;
+    
+    }
+        // .centrado-boton .btn{
+        //     align-self: flex-start;
+        //     display: flex;
+        // }
+    
+    }

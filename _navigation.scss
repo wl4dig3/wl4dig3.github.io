@@ -1,0 +1,23 @@
+.navbar-brand {
+    padding: 0 0 0 50px;
+    
+}
+.navbar-brand img {
+    width: 50px;
+}
+.navbar {
+    background-color: $erie-black;
+}
+.collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    
+}   
+.navbar-nav{
+    align-self: flex-end;
+    padding-right: 50px;
+    
+}

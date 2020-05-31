@@ -1,0 +1,20 @@
+.hero-section{
+    background-image: url(../img/post-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+}
+// div creada para acomodar elementos con space-between
+.hero-section div {
+    height: 50px;
+    width: 50px;
+}
+.hero-section .arrow i{
+    // padding-bottom: 50px;
+    color: $white;
+}

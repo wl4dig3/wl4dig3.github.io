@@ -1,0 +1,18 @@
+.paginacion {
+    height: 150px;
+    background-color: $platinum;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.pagination .page-item:first-child a  {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.pagination .page-item:last-child a {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
